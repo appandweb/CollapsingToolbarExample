@@ -11,7 +11,7 @@ public class CollapsingActivity extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        ctb = (CollapsingToolbarLayout) findViewById(R.id.main_ctb_toolbar);
+        ctb = (CollapsingToolbarLayout) findViewById(R.id.collapsing_ctb_toolbar);
         configurateToolbar();
     }
 
