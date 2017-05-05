@@ -14,7 +14,7 @@ public abstract class BaseActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(getLayoutId());
 
-        if (hideToolbar()){
+        if (hideToolbar()) {
             getSupportActionBar().hide();
         }
     }

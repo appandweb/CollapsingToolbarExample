@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.v4.content.ContextCompat;
 
-public class CollapsingActivity extends BaseActivity {
+public class ToolbarWithHeaderActivity extends BaseActivity {
     CollapsingToolbarLayout ctb;
 
     @Override
