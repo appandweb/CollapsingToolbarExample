@@ -39,7 +39,7 @@ public class ToolbarWithHeaderActivity extends BaseActivity {
 
     @Override
     public int getLayoutId() {
-        return R.layout.activity_collpasing;
+        return R.layout.activity_toolbar_with_header;
     }
 
     @Override
