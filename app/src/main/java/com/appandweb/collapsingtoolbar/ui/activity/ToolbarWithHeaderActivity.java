@@ -13,12 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.appandweb.collapsingtoolbar;
+package com.appandweb.collapsingtoolbar.ui.activity;
 
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.v4.content.ContextCompat;
+
+import com.appandweb.collapsingtoolbar.R;
 
 public class ToolbarWithHeaderActivity extends BaseActivity {
     CollapsingToolbarLayout ctb;
@@ -39,7 +41,7 @@ public class ToolbarWithHeaderActivity extends BaseActivity {
 
     @Override
     public int getLayoutId() {
-        return R.layout.activity_collpasing;
+        return R.layout.activity_toolbar_with_header;
     }
 
     @Override

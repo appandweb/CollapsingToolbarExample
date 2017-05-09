@@ -8,15 +8,17 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".CollapsingActivity">
+        <activity android:name=".ui.activity.CollapsingActivity">
+        </activity>
+        <activity android:name=".ui.activity.ViewPagerActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".ToolbarWithHeaderActivity" />
+        <activity android:name=".ui.activity.ToolbarWithHeaderActivity" >
+        </activity>
     </application>
 
 </manifest>
